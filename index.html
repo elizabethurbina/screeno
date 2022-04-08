@@ -18,7 +18,7 @@
 <body>
   <section class="container">
     <section class="home">
-      <nav class="menu">
+      <nav class="home-menu">
         <div class="nav-izq">
           <ul>
             <li><img src="./imagenes/home-footer/screeno.svg" alt="logo"></li>
@@ -34,8 +34,8 @@
           </ul>
         </div>
       </nav>
-      <main class="contenido">
-        <div class="info">
+      <main class="home-contenido">
+        <div class="hc-info">
           <h1>Reach more </br>people in real time</h1>
           <p>The Screeno ecosystem is designed to help you generate profit. Set up complete sales and marketing funnels
             with ease using the Screeno</p>
@@ -44,8 +44,11 @@
             <button id="login">Login</button>
           </div>
         </div>
-        <div class="images">
-          <img src="./imagenes/homeImgaeChica.svg" alt="chica en streaming">
+        <div class="home-images">
+          <img id="h-streaming" src="./imagenes/homeImgaeChica.svg" alt="chica en streaming">
+          <div class="h-live">
+            <img src="./imagenes/home-footer/live.svg" alt="en vivo">
+          </div>
         </div>
       </main>
       <footer class="footer-comunidad">
@@ -276,7 +279,8 @@
           <form action="">
             <input type="text" name="name" id="nombre" placeholder="Sadara Traña">
             <input type="text" name="email" id="email" placeholder="sadara@example.com">
-            <textarea name="mensaje" id="mensaje" cols="20" rows="5" placeholder="Your message" maxlength="250" ></textarea>
+            <textarea name="mensaje" id="mensaje" cols="20" rows="5" placeholder="Your message"
+              maxlength="250"></textarea>
             <button>Send</button>
           </form>
         </div>
@@ -284,8 +288,8 @@
     </section>
     <section class="footer-page">
       <div class="fp-container">
-       <span>©2022 Screeno Ltd, All rights reserved</span>
-      </div> 
+        <span>©2022 Screeno Ltd, All rights reserved</span>
+      </div>
     </section>
   </section>
 </body>
