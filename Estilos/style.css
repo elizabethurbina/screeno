@@ -30,6 +30,9 @@ body {
   min-height: 100vh;
   margin: 0 auto;
   background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 nav {
   margin-top: 24px;
@@ -86,7 +89,7 @@ nav {
 .home-contenido {
   width: 1140px;
   margin: 0 auto;
-  padding-top: 50px;
+  padding: 50px 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 15px;
@@ -176,11 +179,17 @@ nav {
 
 .footer-comunidad {
   width: 1140px;
-  height: 46px;
-  margin: 50px auto;
+  margin: 0 auto;
+  bottom: 0;
 }
 
-.footer-comunidad ul {
+.footer-comunidad .menu-pie {
+  height: 46px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-comunidad .menu-pie ul {
   width: 100%;
   display: flex;
   justify-content: space-between;
